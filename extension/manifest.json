@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "BlueOcto",
+  "description": "This extension changes green colors on GitHub contributions to blue colors",
+  "version": "1.0",
+  "icons": { "32": "BlueOcto_32.png",
+             "48": "BlueOcto_48.png" },
+  "web_accessible_resources": [ "BlueOcto_32.png" ],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content_scripts.js"],
+      "run_at": "document_end",
+      "css": ["styles.css"]
+    }
+  ]
+}
