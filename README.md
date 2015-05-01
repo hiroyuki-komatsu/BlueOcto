@@ -1,7 +1,7 @@
 # ![BlueOcto](images/BlueOcto_32.png) BlueOcto
 This Chrome extension changes green colors on GitHub contributions to blue colors.
 
-![preview](images/preview.png)
+![preview](images/preview_green.png)   ![preview](images/preview.png)
 
 ## Getting started
 1. Open chrome://extensions and enable developer mode.
